@@ -1,0 +1,74 @@
+@import '../../index.scss';
+
+.about {
+  height: 600px;
+
+  .heading {
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    font-weight: $lighter;
+    padding: 50px 0px 100px 0px;
+  }
+
+  .content {
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .img-section {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10%;
+      }
+    }
+    .about-me-section {
+      padding: 0 50px;
+
+      p {
+        margin: 15px 0px;
+        hyphens: auto;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        word-wrap: break-word;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .about {
+    height: auto;
+
+    .heading {
+      text-align: center;
+      font-size: 25px;
+      color: #000000;
+      font-weight: $lighter;
+      padding: 50px 0px 50px 0px;
+    }
+
+    .content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .img-section {
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 10%;
+        }
+      }
+      .about-me-section {
+        padding: 50px;
+      }
+    }
+  }
+}

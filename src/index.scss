@@ -1,0 +1,52 @@
+$font-family: 'Roboto', sans-serif;
+$font-size: 15px;
+$body-font-color: #333333;
+$other-background: #f6f9fc;
+
+// font weights
+$lighter: 300;
+$normal: 400;
+$bold: 700;
+
+// anchor tags
+$a-color: #368fec;
+$a-active: #137ae6;
+
+//button
+$btn-primary: #3693f0;
+
+// ...
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $font-size;
+  font-family: $font-family;
+  color: $body-font-color;
+}
+
+a {
+  text-decoration: none;
+  color: $a-color;
+
+  &:hover {
+    color: $a-active;
+  }
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #ffffff !important;
+  border-radius: 10px;
+  background-color: $a-color;
+
+  &:active {
+    background-color: $a-active;
+  }
+}

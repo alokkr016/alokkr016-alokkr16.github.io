@@ -1,0 +1,29 @@
+@import '../../index.scss';
+
+.projects {
+  .heading {
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    font-weight: $lighter;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .content {
+    display: flex;
+
+    .left-section,
+    .right-section {
+      height: 650px;
+    }
+  }
+
+  .ballons {
+    position: absolute;
+    margin: 0 auto;
+    top: 2050px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}
