@@ -9,7 +9,7 @@ function index() {
       <div className="content">
         <div className="img-section">
           <img
-            src="https://avatars1.githubusercontent.com/u/55133485?s=200"
+            src="https://avatars3.githubusercontent.com/u/59285395?s=460&u=32890b9165024acba560465808ba49a6649d8717&v=4"
             alt="avatar "
           />
         </div>
