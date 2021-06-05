@@ -9,10 +9,10 @@ const index = () => {
       <div className="heading">Projects and Certifications</div>
       <div className="content">
         <div className="left-section">
-          Projects
+          
         </div>
         <div className="right-section">
-          Certifications
+          
         </div>
       </div>
       <Ballons />
