@@ -15,7 +15,7 @@ const index = () => {
       </div>
       <div className="row-2">
         <LanguageContainer imgPath={'./img/js.png'} name={'JavaScript'} />
-        <LanguageContainer imgPath={'./img/php.png'} name={'PHP'} />
+        <LanguageContainer imgPath={'./img/sql.png'} name={'SQL'} />
       </div>
       <svg
         className="svg-left"
