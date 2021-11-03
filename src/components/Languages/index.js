@@ -11,7 +11,7 @@ const index = () => {
       <div className="row-1">
         <LanguageContainer imgPath={'./img/java.png'} name={'Java'} />
         <LanguageContainer imgPath={'./img/python.png'} name={'Python'} />
-        <LanguageContainer imgPath={'./img/cplusplus.png'} name={'C++'} />
+        <LanguageContainer imgPath={'./img/cplusplus.png'} name={'Linux'} />
       </div>
       <div className="row-2">
         <LanguageContainer imgPath={'./img/js.png'} name={'JavaScript'} />
