@@ -7,7 +7,7 @@ import './language.scss';
 const index = () => {
   return (
     <div className="languages" id="lang">
-      <div className="heading">My top languages</div>
+      <div className="heading">My Skills</div>
       <div className="row-1">
         <LanguageContainer imgPath={'./img/java.png'} name={'Java'} />
         <LanguageContainer imgPath={'./img/python.png'} name={'Python'} />
